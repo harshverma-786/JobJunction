@@ -1,94 +1,189 @@
-# 💼 **JobConnect – Full Stack Job Portal Website** 🌐
+# 💼 TalentforgeX – MERN Stack Job Portal
 
-## 💡 **Description**
+TalentforgeX is a modern full-stack job portal application built using the MERN stack. The platform connects job seekers and recruiters by providing an easy and secure way to search jobs, post opportunities, and manage applications.
 
-**JobConnect** is a robust **MERN Stack** job portal website that allows users to seamlessly browse job listings, post their own job opportunities, and apply for jobs. The platform offers secure user authentication, either through email, password, or Google login using Firebase Authentication. Users can filter job listings by title, location, and posting time, ensuring efficient job discovery. With features like job posting management, pagination, and a sleek UI, **JobConnect** guarantees an exceptional user experience, making job searching and management easier and more accessible.
-
-This full-stack web application is designed to bridge the gap between job seekers and employers with a comprehensive set of features that support both job applicants and administrators.
-
-## 🚀 **Features**
-
-### 👤 **User Features**
-* **🔑 Login:** Allows registered users to securely access their accounts using email and password.
-* **📧 Google Login:** Provides the option to log in using Google, powered by Firebase Authentication for easy access.
-* **📝 Signup:** Enables new users to create accounts by providing necessary registration details like email and password.
-* **🍽️ Job Listings:** Browse a wide range of job opportunities, with job details such as title, location, posting time, and descriptions.
-* **🔍 Job Filters:** Refine job searches by title, location, and posting time for efficient job discovery.
-* **💼 Post & Manage Listings:** Registered users can seamlessly create, edit, and manage their job listings, giving them full control over their content.
-* **🗂️ Pagination:** Job listings are organized with pagination to manage search results and enhance user navigation experience.
-
-### 🧑‍💼 **Admin Features**
-* **🔑 Admin Login:** Grants access to the admin panel, where administrators can manage the platform.
-* **📝 Job Management:** Admins can update, delete, and manage job listings on the portal.
-* **👥 User Management:** Admins can monitor registered users, handle queries, and ensure smooth user operations.
-* **🛠️ Content Moderation:** Admins have the ability to moderate user-submitted content and ensure it adheres to platform guidelines.
-* **📊 Analytics & Reporting:** Admins can view and generate reports on platform usage, job applications, and other key metrics.
-
-### 💡 **Key Features**
-* **🔒 Secure Authentication:** Users can log in with email/password or Google authentication, ensuring secure data access.
-* **📑 Detailed Job Information:** Job listings come with detailed descriptions, requirements, and other essential job-related information.
-* **🎯 Job Search Filters:** Quickly filter job listings based on specific criteria such as location, title, and posting time.
-* **🧭 Easy Navigation:** Pagination for job listings ensures the user can explore a large number of opportunities without overwhelming the interface.
-* **📱 Mobile-Friendly UI:** Responsive design to ensure the website is easy to use across all devices, whether on desktop or mobile.
-
-## 🎯 **Ideal For**
-
-* **👨‍💼 Job Seekers:** Individuals looking to find job opportunities with ease and manage their job applications.
-* **🏢 Employers & Recruiters:** Companies or recruiters seeking an efficient platform to post job listings and manage applicants.
-* **🧑‍💼 Admins:** Admins looking to manage job listings, users, and queries to ensure a smooth-running platform.
-* **🌍 Anyone:** Looking to either find job opportunities or post job openings on a reliable platform.
-
-## ⚙️ **Technologies Used**
-
-**Frontend:**  
-* ⚛️ **React.js**  
-* 🎨 **CSS3**  
-* 💻 **Bootstrap**  
-* ⚙️ **JavaScript**  
-* 🧑‍💻 **Axios** for API calls
-
-**Backend:**  
-* 🖥️ **Node.js**  
-* 🖧 **Express.js**  
-
-**Database:**  
-* 🗄️ **MongoDB** (NoSQL Database)
-
-**Authentication:**  
-* 🔐 **Firebase Authentication** (For Google login)
-
-## ⚙️ **How to Run**
-
-1. **📂 Clone the repository:**  
-   `git clone <repository_url>`
-
-2. **🖥️ Navigate to the directory:**  
-   `cd job-portal`
-
-3. **🔧 Install the backend dependencies:**  
-   Navigate to the backend directory and install dependencies:
-   `cd server && npm install`
-
-4. **🔧 Install the frontend dependencies:**  
-   Navigate to the frontend directory and install dependencies:
-   `cd client && npm install`
-
-5. **⚙️ Set up environment variables:**  
-   Add your environment variables for Firebase and MongoDB in `.env` files for both the frontend and backend.
-
-6. **🚀 Run the application:**  
-   Run the backend and frontend servers:
-
-   - **Backend:**  
-     `npm start` (from the `Server` directory)
-
-   - **Frontend:**  
-     `npm start` (from the `Client` directory)
-
-7. **🌐 Open the application:**  
-   Open the app in your browser at `http://localhost:3000`.
+This project includes authentication, job management, filtering, responsive UI, and CRUD functionality to deliver a smooth user experience for both applicants and recruiters.
 
 ---
 
-**JobConnect** is a powerful job portal platform that empowers both job seekers and employers to connect seamlessly, offering a modern approach to job searching and management. It's a comprehensive, secure, and easy-to-use solution for the job market today! 💼🚀
+## 🚀 Features
 
+### 👤 User Features
+- 🔐 User Authentication (Login & Signup)
+- 📧 Google Authentication using Firebase
+- 🔍 Search and filter jobs by title and location
+- 💼 Browse available job opportunities
+- 📝 Apply for jobs easily
+- 📄 View detailed job descriptions
+- 📱 Fully responsive user interface
+- ⚡ Fast and smooth navigation
+
+### 🧑‍💼 Recruiter/Admin Features
+- ➕ Post new job listings
+- ✏️ Update existing job posts
+- ❌ Delete job listings
+- 📋 Manage posted jobs
+- 👥 Manage users and applications
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+- ⚛️ React.js
+- 🎨 CSS3
+- 💻 Bootstrap
+- ⚡ JavaScript
+- 🔗 Axios
+
+### Backend
+- 🖥️ Node.js
+- 🚀 Express.js
+
+### Database
+- 🗄️ MongoDB
+
+### Authentication
+- 🔐 Firebase Authentication
+
+---
+
+## 📸 Screenshots
+
+### Home Page
+![Home Page](./screenshots/home.png)
+
+### Job Listings
+![Job Listings](./screenshots/jobs.png)
+
+### Login Page
+![Login Page](./screenshots/login.png)
+
+---
+
+## 📂 Project Structure
+
+```bash
+TalentforgeX/
+│
+├── job-portal-client/
+├── job-portal-server/
+├── README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/harshverma-786/TalentforgeX.git
+```
+
+---
+
+### 2️⃣ Navigate to Project Folder
+
+```bash
+cd TalentforgeX
+```
+
+---
+
+### 3️⃣ Install Backend Dependencies
+
+```bash
+cd job-portal-server
+npm install
+```
+
+---
+
+### 4️⃣ Install Frontend Dependencies
+
+```bash
+cd ../job-portal-client
+npm install
+```
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file inside both frontend and backend folders.
+
+Add your:
+
+- MongoDB URI
+- Firebase configuration
+- JWT Secret (if used)
+
+Example:
+
+```env
+MONGO_URI=your_mongodb_uri
+FIREBASE_API_KEY=your_api_key
+```
+
+---
+
+## ▶️ Run the Application
+
+### Start Backend Server
+
+```bash
+cd job-portal-server
+npm start
+```
+
+### Start Frontend Server
+
+```bash
+cd job-portal-client
+npm start
+```
+
+---
+
+## 🌐 Open in Browser
+
+```bash
+http://localhost:3000
+```
+
+---
+
+## 🎯 Project Goals
+
+- Simplify job searching process
+- Provide recruiters an easy hiring platform
+- Practice full-stack MERN development
+- Implement authentication and CRUD operations
+- Build a responsive real-world application
+
+---
+
+## 🔮 Future Improvements
+
+- Resume upload feature
+- Application tracking system
+- Email notifications
+- Advanced job filtering
+- Dark mode support
+- Real-time chat between recruiters and applicants
+
+---
+
+## 👨‍💻 Developer
+
+Developed by **Harsh Verma**
+
+GitHub:  
+https://github.com/harshverma-786
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub.
